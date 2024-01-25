@@ -12,7 +12,7 @@ main()
 	leap/=2;
 	int a[leap];
 	int i,j=0;
-	if(st>=1900&&en<=2500)
+	if(st>=2000&&en<=2500)
 	{
 		cout <<"The Leap Years Are: ";
 		for(i=st; i<=en; i++)
@@ -27,6 +27,6 @@ main()
 	}
 	else
 	{
-		cout << "Enter Years Between 1900 to 2500 !!"<<endl;
+		cout << "Enter Years Between 2000 to 2500 !!"<<endl;
 	}
 }
