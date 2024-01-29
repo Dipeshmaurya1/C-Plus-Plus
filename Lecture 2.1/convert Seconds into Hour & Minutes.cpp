@@ -7,7 +7,7 @@ int main()
 	
 	cout<<"Enter Number of Seconds: ";
 	cin>> second;
-	if(second<0)
+	if(second==0)
 	{
 		cout<<"Please Enter Second more than 0 !!";
 	}
