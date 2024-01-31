@@ -50,12 +50,12 @@ int main()
 	int i;
 	for(i=1;i<6;i++)
 	{
-		e1.input();
+		e1[i].input();
 	}
 	for(i=1;i<6;i++)
 	{
 		cout<<"Employee: "<<i<<endl;
-		e1.output();
+		e1[i].output();
 	}
 	return 0;
 }
