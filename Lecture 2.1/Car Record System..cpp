@@ -39,12 +39,12 @@ int main()
 	int i;
 	for(i=1;i<5;i++)
 	{
-		c1.input();
+		c1[i].input();
 	}
 	for(i=1;i<5;i++)
 	{
 		cout<<"CAR: "<<i<<endl;
-		c1.output();
+		c1[i].output();
 	}
 	return 0;
 }
