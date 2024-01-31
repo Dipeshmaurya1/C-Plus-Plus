@@ -45,14 +45,14 @@ class Employee_detail
 
 int main()
 {
-	Employee_detail e1;
+	Employee_detail e1[6];
 	
 	int i;
-	for(i=1;i<=5;i++)
+	for(i=1;i<6;i++)
 	{
 		e1.input();
 	}
-	for(i=1;i<=5;i++)
+	for(i=1;i<6;i++)
 	{
 		cout<<"Employee: "<<i<<endl;
 		e1.output();
