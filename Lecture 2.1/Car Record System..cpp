@@ -22,6 +22,7 @@ class Car_detail
 		getline(cin,colour);
 		cout<<"Enter Cars Release Date";
 		cin>> release_date;
+		cout<<endl;
 	}
 	void output()
 	{
