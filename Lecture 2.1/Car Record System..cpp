@@ -34,14 +34,14 @@ class Car_detail
 };
 int main()
 {
-	Car_detail c1;
+	Car_detail c1[6];
 	
 	int i;
-	for(i=1;i<=4;i++)
+	for(i=1;i<6;i++)
 	{
 		c1.input();
 	}
-	for(i=1;i<=4;i++)
+	for(i=1;i<6;i++)
 	{
 		cout<<"CAR: "<<i<<endl;
 		c1.output();
