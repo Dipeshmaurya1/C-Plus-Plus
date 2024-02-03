@@ -4,7 +4,7 @@ using namespace std;
 class Converting
 {
 	public:
-	int feet1,inch1,feet2,inch2,feet,inch;
+	int feet1,inch1,feet2,inch2,tfeet,tinch;
 	void input()
 	{
 		cout<<"Input 1==>";
@@ -20,16 +20,16 @@ class Converting
 	}	
 	void output()
 	{
-		feet=feet1+feet2+inch1/12+inch2/12;
-		inch=inch1%12+inch2%12;
-		cout<<"Feet: "<<feet<<"Inch:"<<inch;
+		tfeet=feet1+feet2+inch1/12+inch2/12;
+		tinch=inch1%12+inch2%12;
+		cout<<"Feet: "<<tfeet<<"Inch:"<<tinch;
 	}
 };
 int main()
 {
-	Converting c1;
-	c1.input();
-	c1.output();
+	Converting c;
+	c.input();
+	c.output();
 	return 0;
 }
 
